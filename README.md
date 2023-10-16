@@ -1,4 +1,4 @@
-# Exploratory-Data-Analysis-Project-Python
+# Exploratory-Data-Analysis-Project-Python / Python Project for Data Science
 
 Analyzing Stock Performance, Analyzing Historical Stock/Revenue Data and Building a Dashboard
 
