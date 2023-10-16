@@ -318,7 +318,7 @@
 #    xaxis_rangeslider_visible=True)
 #    fig.show()
 
-#                   Question 1: Use yfinance to Extract Stock Data
+#                   1: Use yfinance to Extract Stock Data
 
 # Using the Ticker function enter the ticker symbol of the stock we want to extract data on to create a ticker
 # object. The stock is Tesla and its ticker symbol is TSLA.
@@ -343,7 +343,7 @@
 #tesla_data.reset_index(inplace=True)
 #print(tesla_data.head())
 
-#               Question 2: Use Webscraping to Extract Tesla Revenue Data
+#               2: Use Webscraping to Extract Tesla Revenue Data
 #import pandas as pd
 #import requests
 #from bs4 import BeautifulSoup
@@ -403,7 +403,7 @@
 #print(tesla_revenue.tail())
 
 
-#                   Question 3: Use yfinance to Extract Stock Data
+#                   3: Use yfinance to Extract Stock Data
 #import yfinance as yf
 
 # Using the Ticker function enter the ticker symbol of the stock we want to extract data on to create a
@@ -423,7 +423,7 @@
 #print(gme_data.head())
 
 
-#                     Question 4: Use Webscraping to Extract GME Revenue Data
+#                     4: Use Webscraping to Extract GME Revenue Data
 #import pandas as pd
 #import requests
 #from bs4 import BeautifulSoup
@@ -470,7 +470,7 @@
 #print(GameStop_Revenue.tail())
 
 
-#                       Question 5: Plot Tesla Stock Graph
+#                       5: Plot Tesla Stock Graph
 
 # Use the make_graph function to graph the Tesla Stock Data, also provide a title for the graph.
 # The structure to call the make_graph function is make_graph(tesla_data, tesla_revenue, 'Tesla').
@@ -479,7 +479,7 @@
 #make_graph(tesla_data, tesla_revenue, 'Tesla')
 
 
-#                       Question 6: Plot GameStop Stock Graph
+#                       6: Plot GameStop Stock Graph
 
 # Use the make_graph function to graph the GameStop Stock Data, also provide a title for the graph.
 # The structure to call the make_graph function is make_graph(gme_data, gme_revenue, 'GameStop').
